@@ -14,12 +14,6 @@ public class TestCalculador {
 		System.out.println("RESULTADO: " + resultadosuma);
 		resultadoresta = calculador.restar(10, 3);
 		System.out.println("RESULTADO: " + resultadoresta);
-		resultadomultiplicar = calculador.multiplicar(10, 3);
-		System.out.println("RESULTADO: " + resultadomultiplicar);
-		resultadodividir = calculador.dividir(10, 5);
-		System.out.println("RESULTADO: " + resultadodividir);
-		resultadopromediar = calculador.promediar(10, 10,10);
-		System.out.println("RESULTADO: " + resultadopromediar);
-		calculador.mostrarResultado();
 	}
+
 }

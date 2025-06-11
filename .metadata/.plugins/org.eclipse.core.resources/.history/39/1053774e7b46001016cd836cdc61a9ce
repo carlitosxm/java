@@ -20,6 +20,5 @@ public class TestCalculador {
 		System.out.println("RESULTADO: " + resultadodividir);
 		resultadopromediar = calculador.promediar(10, 10,10);
 		System.out.println("RESULTADO: " + resultadopromediar);
-		calculador.mostrarResultado();
 	}
 }
