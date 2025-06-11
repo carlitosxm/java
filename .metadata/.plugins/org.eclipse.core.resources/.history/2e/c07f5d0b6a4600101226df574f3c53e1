@@ -1,0 +1,14 @@
+package com.krakedev;
+
+public class TestPersona {
+
+	public static void main(String[] args) {
+		Persona p;// Declaro variable tipo persona
+		p = new Persona();//instancio un obe¿jeto persona
+		//accedo a los atributos
+		System.out.println("nombre: "+p.nombre);
+		System.out.println("edad: "+p.edad);
+		System.out.println("estatura: "+p.estatura);
+	}
+
+}

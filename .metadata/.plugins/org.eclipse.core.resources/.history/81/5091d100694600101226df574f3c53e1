@@ -1,0 +1,11 @@
+package com.krakedev;
+
+public class TestPersona {
+
+	public static void main(String[] args) {
+		Persona p;// Declaro variable tipo persona
+		p = new Persona();//instancio un obe¿jeto persona
+		System.out.println("nombre:");
+	}
+
+}
