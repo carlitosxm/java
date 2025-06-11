@@ -8,11 +8,11 @@ public class TestAuto {
 		
 		auto1.marca="kia";
 		auto1.anio=2024;
-		auto1.precio=1400.00f;
+		auto1.precio=1400.0f;
 		
 		auto2.marca="BMW";
 		auto2.anio=2020;
-		auto2.precio=35000.00f;
+		auto2.precio=35000.0f;
 		
 		System.out.println("AUTO 1");
 		System.out.println("Marca: "+auto1.marca);
