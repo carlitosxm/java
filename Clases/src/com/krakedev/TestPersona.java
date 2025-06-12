@@ -8,17 +8,17 @@ public class TestPersona {
 		Persona p2 = new Persona();
 
 		//modificar atributos
-		p.nombre = "Jose";
-		p.edad = 45;
-		p.estatura = 1.56;
+		p.setNombre("Jose");
+		p.setEdad(45); 
+		p.setEstatura(1.56); 
 
 		// accedo a los atributos
-		System.out.println("nombre: " + p.nombre);
-		System.out.println("edad: " + p.edad);
-		System.out.println("estatura: " + p.estatura);
+		System.out.println("nombre: " + p.getNombre());
+		System.out.println("edad: " + p.getEdad());
+		System.out.println("estatura: " + p.getEstatura());
 
-		p2.nombre = "Angelina";
-		System.out.println("nombre: " + p2.nombre);
+		p2.setNombre("Angelina");
+		System.out.println("nombre: " + p2.getNombre());
 
 	}
 

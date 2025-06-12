@@ -6,23 +6,23 @@ public class TestAuto {
 		Auto auto1=new Auto();
 		Auto auto2=new Auto();
 		
-		auto1.marca="kia";
-		auto1.anio=2024;
-		auto1.precio=1400.0f;
+		auto1.setMarca("kia");
+		auto1.setAnio(2024);;
+		auto1.setPrecio(18000);
 		
-		auto2.marca="BMW";
-		auto2.anio=2020;
-		auto2.precio=35000.0f;
+		auto2.setMarca("BMW");
+		auto2.setAnio(2020);
+		auto1.setPrecio(38000);
 		
 		System.out.println("AUTO 1");
-		System.out.println("Marca: "+auto1.marca);
-		System.out.println("Año: "+auto1.anio);
-		System.out.println("Precio: "+auto1.precio);
+		System.out.println("Marca: "+auto1.getMarca());
+		System.out.println("Año: "+auto1.getAnio());
+		System.out.println("Precio: "+auto1.getPrecio());
 		System.out.println("------------------------------");
 		System.out.println("AUTO 2");
-		System.out.println("Marca: "+auto2.marca);
-		System.out.println("Año: "+auto2.anio);
-		System.out.println("Precio: "+auto2.precio);
+		System.out.println("Marca: "+auto2.getMarca());
+		System.out.println("Año: "+auto2.getAnio());
+		System.out.println("Precio: "+auto2.getPrecio());
 
 	}
 

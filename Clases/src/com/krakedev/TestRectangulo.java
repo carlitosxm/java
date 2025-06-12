@@ -3,23 +3,24 @@ package com.krakedev;
 public class TestRectangulo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Rectangulo r1=new Rectangulo();
-		r1.altura=10;
-		r1.base=5;
-		int resultado=r1.calcularArea();
-		Rectangulo r2=new Rectangulo();
-		r2.altura=20;
-		r2.base=5;
-		int resultado2=r2.calcularArea();
-		System.out.println(""+resultado);
-		System.out.println(""+resultado2);
-		
-		// perimetro
-		double perimetro1=r1.calcularParametro();
-		double perimetro2=r2.calcularParametro();
-		System.out.println(""+perimetro1);
-		System.out.println(""+perimetro2);
-	}
+		Rectangulo r1 = new Rectangulo();
+		r1.setAltura(10);
+		r1.setBase(5);
+		int resultado = r1.calcularArea();
 
+		Rectangulo r2 = new Rectangulo();
+		r2.setAltura(20);
+		r2.setBase(5);
+		int resultado2 = r2.calcularArea();
+
+		System.out.println("Área r1: " + resultado);
+		System.out.println("Área r2: " + resultado2);
+
+		// Perímetro
+		double perimetro1 = r1.calcularParametro();
+		double perimetro2 = r2.calcularParametro();
+		System.out.println("Perímetro r1: " + perimetro1);
+		System.out.println("Perímetro r2: " + perimetro2);
+
+	}
 }

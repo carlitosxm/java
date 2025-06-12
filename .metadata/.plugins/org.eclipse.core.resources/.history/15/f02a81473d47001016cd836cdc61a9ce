@@ -1,0 +1,27 @@
+package com.krakedev;
+
+public class TestCuadrado {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Cuadrado c1 = new Cuadrado();
+		Cuadrado c2 = new Cuadrado();
+		Cuadrado c3 = new Cuadrado();
+		c1.lado = 4;
+		c2.lado = 2;
+		c3.lado = 10;
+		double a1 = c1.calcularArea();
+		double p1 = c1.calcularPerimetro();
+		System.out.println(""+a1);
+		System.out.println(""+p1);
+		double a2 = c2.calcularArea();
+		double p2 = c2.calcularPerimetro();
+		System.out.println(""+a2);
+		System.out.println(""+p2);
+		double a3 = c3.calcularArea();
+		double p3 = c3.calcularPerimetro();
+		System.out.println(""+a3);
+		System.out.println(""+p3);
+	}
+
+}

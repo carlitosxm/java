@@ -1,0 +1,26 @@
+package com.krakedev;
+
+public class Fecha {
+	private int anio;
+	private int mes;
+	private int dia;
+	
+	public int getAnio() {
+		return anio;
+	}
+	public int getDia() {
+		return dia;
+	}
+	public int getMes() {
+		return mes;
+	}
+	public void setAnio(int nuevoAnio) {
+		anio=nuevoAnio;
+	}
+	public void setMes (int nuevoMes) {
+		mes=nuevoMes;
+	}
+	public void setDia (int nuevoDia) {
+		dia = nuevoDia;
+	}
+}
