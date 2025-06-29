@@ -1054,3 +1054,15 @@
 2025-06-28 23:00:09,508 [Worker-240: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\User\OneDrive\Documentos\krakedev\java\ejemplojunit\src\main\resources
 2025-06-28 23:00:09,510 [Worker-240: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2025-06-28 23:00:09,510 [Worker-240: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\User\OneDrive\Documentos\krakedev\java\ejemplojunit\src\test\resources
+2025-06-28 23:10:19,673 [Worker-241: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-28 23:10:19,673 [Worker-241: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\User\OneDrive\Documentos\krakedev\java\ejemplojunit\src\main\resources
+2025-06-28 23:10:19,675 [Worker-241: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-28 23:10:19,675 [Worker-241: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\User\OneDrive\Documentos\krakedev\java\ejemplojunit\src\test\resources
+2025-06-28 23:14:18,093 [Worker-237: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-28 23:14:18,093 [Worker-237: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\User\OneDrive\Documentos\krakedev\java\ejemplojunit\src\main\resources
+2025-06-28 23:14:18,097 [Worker-237: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-28 23:14:18,097 [Worker-237: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\User\OneDrive\Documentos\krakedev\java\ejemplojunit\src\test\resources
+2025-06-28 23:14:45,468 [Worker-234: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-28 23:14:45,468 [Worker-234: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\User\OneDrive\Documentos\krakedev\java\ejemplojunit\src\main\resources
+2025-06-28 23:14:45,469 [Worker-234: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-06-28 23:14:45,469 [Worker-234: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\User\OneDrive\Documentos\krakedev\java\ejemplojunit\src\test\resources
