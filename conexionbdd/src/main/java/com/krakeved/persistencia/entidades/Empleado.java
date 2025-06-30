@@ -41,5 +41,10 @@ public class Empleado {
 	public void setHora(Date hora) {
 		this.hora = hora;
 	}
+	@Override
+	public String toString() {
+		return "Empleado [codigo_empleado=" + codigo_empleado + ", nombre=" + nombre + ", fecha=" + fecha + ", hora="
+				+ hora + "]";
+	}
 	
 }

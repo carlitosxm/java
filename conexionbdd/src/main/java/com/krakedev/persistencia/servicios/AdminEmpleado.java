@@ -2,7 +2,11 @@ package com.krakedev.persistencia.servicios;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.sql.Time;
+import java.util.ArrayList;
+import java.util.Date;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -76,4 +80,79 @@ public class AdminEmpleado {
 			con.close();
 		}
 	}
+	
+	public static ArrayList<Empleado> buscarPorNombre(String nombreBuscar) throws Exception {
+	    ArrayList<Empleado> empleados = new ArrayList<>();
+	    Connection con = null;
+	    PreparedStatement ps = null;
+	    ResultSet rs = null;
+
+	    try {
+	        con = ConexionBDD.conectar();
+	        ps = con.prepareStatement("SELECT * FROM empleado WHERE nombre LIKE ?");
+	        ps.setString(1, "%" + nombreBuscar + "%");
+	        rs = ps.executeQuery();
+
+	        while (rs.next()) {
+	            int codigo = rs.getInt("codigo_empleado");
+	            String nombre = rs.getString("nombre");
+	            Date fecha = rs.getDate("fecha");
+	            Time hora = rs.getTime("hora");
+
+	            Empleado e = new Empleado();
+	            e.setCodigo_empleado(codigo);
+	            e.setNombre(nombre);
+	            e.setFecha(fecha);
+	            e.setHora(hora);
+
+	            empleados.add(e);
+	        }
+	    } catch (Exception e) {
+	        LOGGER.error("Error al consultar por nombre", e);
+	        throw new Exception("Error al consultar por nombre");
+	    } finally {
+	        try {
+	            if (con != null) {
+	                con.close();
+	            }
+	        } catch (SQLException e) {
+	            LOGGER.error("Error cerrando conexión", e);
+	            throw new Exception("Error cerrando conexión");
+	        }
+	    }
+
+	    return empleados;
+	}
+	
+	public static Empleado buscarPorCodigo(int codigoBuscar) throws Exception {
+	    Empleado empleado = null;
+	    Connection con = null;
+	    PreparedStatement ps = null;
+	    ResultSet rs = null;
+
+	    try {
+	        con = ConexionBDD.conectar();
+	        ps = con.prepareStatement("SELECT * FROM empleado WHERE codigo_empleado = ?");
+	        ps.setInt(1, codigoBuscar);
+	        rs = ps.executeQuery();
+
+	        if (rs.next()) {
+	            empleado = new Empleado();
+	            empleado.setCodigo_empleado(rs.getInt("codigo_empleado"));
+	            empleado.setNombre(rs.getString("nombre"));
+	            empleado.setFecha(rs.getDate("fecha"));
+	            empleado.setHora(rs.getTime("hora"));
+	        }
+	    } catch (Exception e) {
+	        LOGGER.error("Error al consultar por código", e);
+	        throw new Exception("Error al consultar por código");
+	    } finally {
+	        if (con != null) {
+	            con.close();
+	        }
+	    }
+
+	    return empleado;
+	}
+	
 }
