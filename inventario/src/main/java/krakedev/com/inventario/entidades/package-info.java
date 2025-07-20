@@ -1,0 +1,1 @@
+package krakedev.com.inventario.entidades;

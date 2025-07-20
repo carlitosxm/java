@@ -1,0 +1,475 @@
+2025-07-05 11:35:28.993 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 11:35:29.196 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 12:03:18.251 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 12:03:18.471 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 13:43:47.460 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 13:43:47.670 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 14:25:54.241 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=lprueba, autor_id=1, genero_id=1, anio_publicacion=Sun May 14 18:05:20 ECT 24, esta_disponible=true]
+2025-07-05 14:25:54.242 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 14:25:54.423 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 14:25:54.429 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al insertar
+java.lang.ClassCastException: class java.util.Date cannot be cast to class java.sql.Date (java.util.Date is in module java.base of loader 'bootstrap'; java.sql.Date is in module java.sql of loader 'platform')
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:76) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:26) [classes/:?]
+2025-07-05 14:30:12.795 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=lprueba, autor_id=1, genero_id=1, anio_publicacion=Sun May 14 18:05:20 ECT 24, esta_disponible=true]
+2025-07-05 14:30:12.797 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 14:30:12.974 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 14:30:12.989 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al insertar
+org.postgresql.util.PSQLException: No se ha especificado un valor para el parámetro 4.
+	at org.postgresql.core.v3.SimpleParameterList.checkAllParametersSet(SimpleParameterList.java:407) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:518) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:435) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:196) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:157) ~[postgresql-42.7.7.jar:42.7.7]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:78) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:26) [classes/:?]
+2025-07-05 14:30:58.478 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=lprueba, autor_id=1, genero_id=1, anio_publicacion=Sun May 14 18:05:20 ECT 24, esta_disponible=true]
+2025-07-05 14:30:58.480 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 14:30:58.657 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 14:30:58.669 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - registro ok
+2025-07-05 14:57:05.816 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha18/12/1992 18:05:20
+2025-07-05 14:57:05.827 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSun May 14 00:00:00 ECT 24
+2025-07-05 14:57:05.840 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=lpruba, autor_id=1, genero_id=1, anio_publicacion=Sun May 14 00:00:00 ECT 24, esta_disponible=true]
+2025-07-05 14:57:05.841 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 14:57:06.022 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 14:57:06.032 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - registro ok
+2025-07-05 14:57:34.551 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha1992/12/19 18:05:20
+2025-07-05 14:57:34.561 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSat Dec 19 00:00:00 ECST 1992
+2025-07-05 14:57:34.572 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=lpruba, autor_id=1, genero_id=1, anio_publicacion=Sat Dec 19 00:00:00 ECST 1992, esta_disponible=true]
+2025-07-05 14:57:34.572 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 14:57:34.880 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 14:57:34.888 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - registro ok
+2025-07-05 15:06:30.825 [main] TRACE com.krakedev.moduloii.evaluacionfinal.entidades.Genero - Genero a insertarGenero [id=0, nombre=Prueba]
+2025-07-05 15:06:30.826 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:06:31.005 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:06:31.034 [main] ERROR com.krakedev.moduloii.evaluacionfinal.entidades.Genero - Error al insertar
+org.postgresql.util.PSQLException: ERROR: error de sintaxis en o cerca de «(»
+  Position: 35
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2734) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2421) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:518) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:435) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:196) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:157) ~[postgresql-42.7.7.jar:42.7.7]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServicioGenero.insertar(ServicioGenero.java:24) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarGLit.main(TestInsertarGLit.java:11) [classes/:?]
+2025-07-05 15:07:01.054 [main] TRACE com.krakedev.moduloii.evaluacionfinal.entidades.Genero - Genero a insertarGenero [id=0, nombre=Prueba]
+2025-07-05 15:07:01.055 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:07:01.240 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:07:01.255 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.entidades.Genero - registro ok
+2025-07-05 15:19:55.668 [main] TRACE com.krakedev.moduloii.evaluacionfinal.entidades.Genero - Genero a insertarGenero [id=0, nombre=Prueba]
+2025-07-05 15:19:55.669 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:19:55.858 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:19:55.885 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.entidades.Genero - registro ok
+2025-07-05 15:21:19.009 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha1992/12/19 18:05:20
+2025-07-05 15:21:19.021 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSat Dec 19 00:00:00 ECST 1992
+2025-07-05 15:21:19.050 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=lpruba2, autor_id=1, genero_id=1, anio_publicacion=Sat Dec 19 00:00:00 ECST 1992, esta_disponible=true]
+2025-07-05 15:21:19.051 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:21:19.216 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:21:19.233 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Codigo no existe
+2025-07-05 15:21:19.233 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al consultar por código
+java.lang.Exception: Codigo no existe
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:116) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:69) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 15:21:19.236 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al insertar
+java.lang.Exception: Error al consultar por código
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:120) ~[classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:69) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 15:22:07.634 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha1992/12/19 18:05:20
+2025-07-05 15:22:07.646 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSat Dec 19 00:00:00 ECST 1992
+2025-07-05 15:22:07.670 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=lpruba2, autor_id=1, genero_id=1, anio_publicacion=Sat Dec 19 00:00:00 ECST 1992, esta_disponible=true]
+2025-07-05 15:22:07.671 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:22:07.852 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:22:07.852 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:22:07.881 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:22:07.893 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Codigo no existe
+2025-07-05 15:22:07.893 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al consultar por código
+java.lang.Exception: Codigo no existe
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:116) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 15:22:07.895 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al insertar
+java.lang.Exception: Error al consultar por código
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:120) ~[classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 15:24:33.398 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha1992/12/19 18:05:20
+2025-07-05 15:24:33.407 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSat Dec 19 00:00:00 ECST 1992
+2025-07-05 15:24:33.436 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=lpruba22, autor_id=1, genero_id=1, anio_publicacion=Sat Dec 19 00:00:00 ECST 1992, esta_disponible=true]
+2025-07-05 15:24:33.437 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:24:33.624 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:24:33.624 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:24:33.655 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:24:33.665 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Codigo no existe
+2025-07-05 15:24:33.665 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al consultar por código
+java.lang.Exception: Codigo no existe
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:112) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 15:24:33.668 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al insertar
+java.lang.Exception: Error al consultar por código
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:116) ~[classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 15:25:17.977 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha1992/12/19 18:05:20
+2025-07-05 15:25:17.987 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSat Dec 19 00:00:00 ECST 1992
+2025-07-05 15:25:18.021 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=lpruba22, autor_id=1, genero_id=1, anio_publicacion=Sat Dec 19 00:00:00 ECST 1992, esta_disponible=true]
+2025-07-05 15:25:18.022 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:25:18.201 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:25:18.201 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:25:18.238 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:25:18.256 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Codigo no existe
+2025-07-05 15:25:18.256 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al consultar por código
+java.lang.Exception: Codigo no existe
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:112) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 15:25:18.259 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al insertar
+java.lang.Exception: Error al consultar por código
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:116) ~[classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 15:32:03.238 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha1992/12/19 18:05:20
+2025-07-05 15:32:03.251 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSat Dec 19 00:00:00 ECST 1992
+2025-07-05 15:32:03.287 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=lpruba22, autor_id=1, genero_id=1, anio_publicacion=Sat Dec 19 00:00:00 ECST 1992, esta_disponible=true]
+2025-07-05 15:32:03.287 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:32:03.478 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:32:03.478 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:32:03.513 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:32:03.531 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Codigo no existe
+2025-07-05 15:32:03.531 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al consultar por código
+java.lang.Exception: Codigo no existe
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:113) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 15:32:03.536 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al insertar
+java.lang.Exception: Error al consultar por código
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:117) ~[classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 15:33:03.992 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha1992/12/19 18:05:20
+2025-07-05 15:33:04.002 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSat Dec 19 00:00:00 ECST 1992
+2025-07-05 15:33:04.033 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=lpruba22222, autor_id=1, genero_id=1, anio_publicacion=Sat Dec 19 00:00:00 ECST 1992, esta_disponible=true]
+2025-07-05 15:33:04.034 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:33:04.210 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:33:04.211 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:33:04.250 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:33:04.268 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Codigo no existe
+2025-07-05 15:33:04.268 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al consultar por código
+java.lang.Exception: Codigo no existe
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:114) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 15:33:04.272 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al insertar
+java.lang.Exception: Error al consultar por código
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:118) ~[classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 15:35:02.163 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha1992/12/19 18:05:20
+2025-07-05 15:35:02.177 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSat Dec 19 00:00:00 ECST 1992
+2025-07-05 15:35:02.217 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=lpruba22222, autor_id=1, genero_id=1, anio_publicacion=Sat Dec 19 00:00:00 ECST 1992, esta_disponible=true]
+2025-07-05 15:35:02.217 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:35:02.413 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:35:02.413 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:35:02.444 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:35:02.458 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Codigo no existe
+2025-07-05 15:35:02.458 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al consultar por código
+java.lang.Exception: Codigo no existe
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:115) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 15:35:02.460 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al insertar
+java.lang.Exception: Error al consultar por código
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:119) ~[classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 15:36:09.633 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha1992/12/19 18:05:20
+2025-07-05 15:36:09.645 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSat Dec 19 00:00:00 ECST 1992
+2025-07-05 15:36:09.677 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=lpruba22222, autor_id=1, genero_id=1, anio_publicacion=Sat Dec 19 00:00:00 ECST 1992, esta_disponible=true]
+2025-07-05 15:36:09.678 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:36:09.859 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:36:09.859 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:36:09.890 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:36:09.901 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Codigo no existe
+2025-07-05 15:36:09.901 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al consultar por código
+java.lang.Exception: Codigo no existe
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:115) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 15:36:09.904 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al insertar
+java.lang.Exception: Error al consultar por código
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:119) ~[classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 15:38:36.140 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha1992/12/19 18:05:20
+2025-07-05 15:38:36.150 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSat Dec 19 00:00:00 ECST 1992
+2025-07-05 15:38:36.183 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=lpruba22222, autor_id=1, genero_id=1, anio_publicacion=Sat Dec 19 00:00:00 ECST 1992, esta_disponible=true]
+2025-07-05 15:38:36.184 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:38:36.363 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:38:36.363 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:38:36.393 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:38:36.405 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al consultar por código
+org.postgresql.util.PSQLException: El índice de la columna está fuera de rango: 1, número de columnas: 0.
+	at org.postgresql.core.v3.SimpleParameterList.bind(SimpleParameterList.java:71) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.core.v3.SimpleParameterList.setStringParameter(SimpleParameterList.java:140) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgPreparedStatement.bindString(PgPreparedStatement.java:1156) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgPreparedStatement.setString(PgPreparedStatement.java:404) ~[postgresql-42.7.7.jar:42.7.7]
+	at org.postgresql.jdbc.PgPreparedStatement.setString(PgPreparedStatement.java:390) ~[postgresql-42.7.7.jar:42.7.7]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:107) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 15:38:36.408 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al insertar
+java.lang.Exception: Error al consultar por código
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:119) ~[classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 15:41:26.337 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha1992/12/19 18:05:20
+2025-07-05 15:41:26.346 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSat Dec 19 00:00:00 ECST 1992
+2025-07-05 15:41:26.381 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=lpruba22222, autor_id=1, genero_id=1, anio_publicacion=Sat Dec 19 00:00:00 ECST 1992, esta_disponible=true]
+2025-07-05 15:41:26.382 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:41:26.560 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:41:26.560 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:41:26.603 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:41:26.621 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Codigo no existe
+2025-07-05 15:41:26.621 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al consultar por código
+java.lang.Exception: Codigo no existe
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:115) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 15:41:26.627 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al insertar
+java.lang.Exception: Error al consultar por código
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:119) ~[classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 15:43:24.878 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha1992/12/19 18:05:20
+2025-07-05 15:43:24.888 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSat Dec 19 00:00:00 ECST 1992
+2025-07-05 15:43:24.922 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=lpruba22222, autor_id=1, genero_id=1, anio_publicacion=Sat Dec 19 00:00:00 ECST 1992, esta_disponible=true]
+2025-07-05 15:43:24.923 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:43:25.100 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:43:25.100 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:43:25.130 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:43:25.142 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Codigo no existe
+2025-07-05 15:43:25.143 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al consultar por código
+java.lang.Exception: Codigo no existe
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:115) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 15:43:25.145 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al insertar
+java.lang.Exception: Error al consultar por código
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:119) ~[classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 15:43:55.435 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha1992/12/19 18:05:20
+2025-07-05 15:43:55.447 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSat Dec 19 00:00:00 ECST 1992
+2025-07-05 15:43:55.458 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=ll, autor_id=1, genero_id=1, anio_publicacion=Sat Dec 19 00:00:00 ECST 1992, esta_disponible=true]
+2025-07-05 15:43:55.458 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:43:55.638 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:43:55.638 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:43:55.670 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:43:55.681 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Codigo no existe
+2025-07-05 15:43:55.681 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al consultar por código
+java.lang.Exception: Codigo no existe
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:115) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 15:43:55.684 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al insertar
+java.lang.Exception: Error al consultar por código
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:119) ~[classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 15:45:12.177 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha1992/12/19 18:05:20
+2025-07-05 15:45:12.188 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSat Dec 19 00:00:00 ECST 1992
+2025-07-05 15:45:12.201 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=ll, autor_id=1, genero_id=1, anio_publicacion=Sat Dec 19 00:00:00 ECST 1992, esta_disponible=true]
+2025-07-05 15:45:12.202 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:45:12.382 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:45:12.382 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:45:12.410 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:45:12.422 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Codigo no existe
+2025-07-05 15:45:12.422 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al consultar por código
+java.lang.Exception: Codigo no existe
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:115) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 15:45:12.424 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al insertar
+java.lang.Exception: Error al consultar por código
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:119) ~[classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 15:47:32.155 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha1992/12/19 18:05:20
+2025-07-05 15:47:32.166 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSat Dec 19 00:00:00 ECST 1992
+2025-07-05 15:47:32.197 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=ll, autor_id=1, genero_id=1, anio_publicacion=Sat Dec 19 00:00:00 ECST 1992, esta_disponible=true]
+2025-07-05 15:47:32.197 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:47:32.379 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:47:32.393 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - registro ok
+2025-07-05 15:48:07.144 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha1992/12/19 18:05:20
+2025-07-05 15:48:07.159 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSat Dec 19 00:00:00 ECST 1992
+2025-07-05 15:48:07.202 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=ll, autor_id=1, genero_id=1, anio_publicacion=Sat Dec 19 00:00:00 ECST 1992, esta_disponible=true]
+2025-07-05 15:48:07.203 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:48:07.403 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:48:07.403 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:48:07.433 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:49:10.714 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha1992/12/19 18:05:20
+2025-07-05 15:49:10.724 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSat Dec 19 00:00:00 ECST 1992
+2025-07-05 15:49:10.758 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=ll, autor_id=1, genero_id=1, anio_publicacion=Sat Dec 19 00:00:00 ECST 1992, esta_disponible=true]
+2025-07-05 15:49:10.758 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:49:10.941 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:49:10.942 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:49:10.981 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:49:10.995 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - LIBRO YA EXSITE
+2025-07-05 15:49:10.995 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al insertar
+com.krakedev.moduloii.evaluacionfinal.excepciones.KrakeException: LIBRO YA EXSITE
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:83) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 15:49:37.109 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha1992/12/19 18:05:20
+2025-07-05 15:49:37.119 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSat Dec 19 00:00:00 ECST 1992
+2025-07-05 15:49:37.128 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=ll, autor_id=1, genero_id=1, anio_publicacion=Sat Dec 19 00:00:00 ECST 1992, esta_disponible=true]
+2025-07-05 15:49:37.129 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:49:37.316 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 15:49:37.316 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 15:49:37.349 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 16:16:50.511 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha1992/12/19 18:05:20
+2025-07-05 16:16:50.520 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSat Dec 19 00:00:00 ECST 1992
+2025-07-05 16:16:50.546 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=oooo, autor_id=1, genero_id=1, anio_publicacion=Sat Dec 19 00:00:00 ECST 1992, esta_disponible=true]
+2025-07-05 16:16:50.546 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 16:16:50.732 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 16:16:50.732 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 16:16:50.767 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 16:16:50.783 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Codigo no existe
+2025-07-05 16:16:50.783 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al consultar por código
+java.lang.Exception: Codigo no existe
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:113) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 16:16:50.787 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al insertar
+java.lang.Exception: Error al consultar por código
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:117) ~[classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 16:18:20.979 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 16:18:21.168 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 16:18:33.597 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha1992/12/19 18:05:20
+2025-07-05 16:18:33.607 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSat Dec 19 00:00:00 ECST 1992
+2025-07-05 16:18:33.618 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=oooo, autor_id=1, genero_id=1, anio_publicacion=Sat Dec 19 00:00:00 ECST 1992, esta_disponible=true]
+2025-07-05 16:18:33.618 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 16:18:33.793 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 16:18:33.793 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 16:18:33.832 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 16:18:33.846 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Codigo no existe
+2025-07-05 16:18:33.846 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al consultar por código
+java.lang.Exception: Codigo no existe
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:113) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 16:18:33.851 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al insertar
+java.lang.Exception: Error al consultar por código
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:117) ~[classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 16:19:06.296 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha1992/12/19 18:05:20
+2025-07-05 16:19:06.307 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSat Dec 19 00:00:00 ECST 1992
+2025-07-05 16:19:06.317 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=oooo, autor_id=1, genero_id=1, anio_publicacion=Sat Dec 19 00:00:00 ECST 1992, esta_disponible=true]
+2025-07-05 16:19:06.318 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 16:19:06.496 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 16:19:06.496 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 16:19:06.525 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 16:19:06.537 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Codigo no existe
+2025-07-05 16:19:06.537 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al consultar por código
+java.lang.Exception: Codigo no existe
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:113) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 16:19:06.540 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al insertar
+java.lang.Exception: Error al consultar por código
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:117) ~[classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 16:20:30.786 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha1992/12/19 18:05:20
+2025-07-05 16:20:30.796 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSat Dec 19 00:00:00 ECST 1992
+2025-07-05 16:20:30.828 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=44, autor_id=1, genero_id=1, anio_publicacion=Sat Dec 19 00:00:00 ECST 1992, esta_disponible=true]
+2025-07-05 16:20:30.829 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 16:20:31.017 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 16:20:31.026 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - registro ok
+2025-07-05 16:21:12.388 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha1992/12/19 18:05:20
+2025-07-05 16:21:12.398 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSat Dec 19 00:00:00 ECST 1992
+2025-07-05 16:21:12.411 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=44, autor_id=1, genero_id=1, anio_publicacion=Sat Dec 19 00:00:00 ECST 1992, esta_disponible=true]
+2025-07-05 16:21:12.412 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 16:21:12.709 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 16:21:12.709 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 16:21:12.741 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 16:24:24.605 [main] TRACE com.krakedev.moduloii.evaluacionfinal.entidades.Genero - Genero a insertarGenero [id=0, nombre=Prueba]
+2025-07-05 16:24:24.606 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 16:24:24.792 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 16:24:40.240 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha1992/12/19 18:05:20
+2025-07-05 16:24:40.251 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSat Dec 19 00:00:00 ECST 1992
+2025-07-05 16:24:40.284 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=44, autor_id=1, genero_id=1, anio_publicacion=Sat Dec 19 00:00:00 ECST 1992, esta_disponible=true]
+2025-07-05 16:24:40.284 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 16:24:40.467 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 16:24:40.467 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 16:24:40.497 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 16:24:40.509 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 16:24:40.652 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 16:25:05.215 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha1992/12/19 18:05:20
+2025-07-05 16:25:05.225 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSat Dec 19 00:00:00 ECST 1992
+2025-07-05 16:25:05.237 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=22, autor_id=1, genero_id=1, anio_publicacion=Sat Dec 19 00:00:00 ECST 1992, esta_disponible=true]
+2025-07-05 16:25:05.237 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 16:25:05.423 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 16:25:05.423 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 16:25:05.451 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 16:25:05.462 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Codigo no existe
+2025-07-05 16:25:05.462 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al consultar por NOMBRE
+java.lang.Exception: Codigo no existe
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:125) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 16:25:05.467 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al insertar
+java.lang.Exception: Error al consultar por NOMBRE
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:129) ~[classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 16:25:05.467 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 16:25:05.506 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 16:25:05.508 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Codigo no existe
+2025-07-05 16:25:05.509 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al consultar por NOMBRE
+java.lang.Exception: Codigo no existe
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:125) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:89) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 16:25:50.638 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha1992/12/19 18:05:20
+2025-07-05 16:25:50.649 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSat Dec 19 00:00:00 ECST 1992
+2025-07-05 16:25:50.678 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=LIBRO, autor_id=1, genero_id=1, anio_publicacion=Sat Dec 19 00:00:00 ECST 1992, esta_disponible=true]
+2025-07-05 16:25:50.680 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 16:25:50.863 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 16:25:50.863 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 16:25:50.890 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 16:25:50.900 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Codigo no existe
+2025-07-05 16:25:50.901 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al consultar por NOMBRE
+java.lang.Exception: Codigo no existe
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:113) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 16:25:50.904 [main] ERROR com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Error al insertar
+java.lang.Exception: Error al consultar por NOMBRE
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.buscarLibro(ServiciosLibros.java:117) ~[classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros.insertar(ServiciosLibros.java:70) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarLibro.main(TestInsertarLibro.java:16) [classes/:?]
+2025-07-05 16:26:35.059 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Convitiendo Fecha1992/12/19 18:05:20
+2025-07-05 16:26:35.070 [main] TRACE com.krakedev.moduloii.evaluacionfinal.utils.Convertidor - Fecha convertidaSat Dec 19 00:00:00 ECST 1992
+2025-07-05 16:26:35.103 [main] TRACE com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - Categoria a insertarLibro [id=0, titulo=Libro, autor_id=2, genero_id=1, anio_publicacion=Sat Dec 19 00:00:00 ECST 1992, esta_disponible=true]
+2025-07-05 16:26:35.103 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 16:26:35.280 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 16:26:35.292 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosLibros - registro ok
+2025-07-05 16:37:29.942 [main] TRACE com.krakedev.moduloii.evaluacionfinal.entidades.Genero - Genero a insertarGenero [id=0, nombre=Prueba]
+2025-07-05 16:37:29.944 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 16:37:30.136 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 16:37:30.136 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Obteniendo Conexion
+2025-07-05 16:37:30.177 [main] DEBUG com.krakedev.moduloii.evaluacionfinal.utils.ConexionBDD - Conexion exitosa
+2025-07-05 16:37:30.204 [main] ERROR com.krakedev.moduloii.evaluacionfinal.entidades.Genero - Genero ya existe
+2025-07-05 16:37:30.205 [main] ERROR com.krakedev.moduloii.evaluacionfinal.entidades.Genero - Error al insertar
+java.lang.Exception: Genero ya existe
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosGeneros.buscarGenero(ServiciosGeneros.java:59) ~[classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.servicios.ServiciosGeneros.agregarGenero(ServiciosGeneros.java:22) [classes/:?]
+	at com.krakedev.moduloii.evaluacionfinal.test.TestInsertarGenero.main(TestInsertarGenero.java:11) [classes/:?]

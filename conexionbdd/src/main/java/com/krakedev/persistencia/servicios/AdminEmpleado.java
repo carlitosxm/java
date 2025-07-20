@@ -142,6 +142,9 @@ public class AdminEmpleado {
 	            empleado.setNombre(rs.getString("nombre"));
 	            empleado.setFecha(rs.getDate("fecha"));
 	            empleado.setHora(rs.getTime("hora"));
+	        }else {
+	        	LOGGER.error("Codigo no existe");
+		        throw new Exception("Codigo no existe");	
 	        }
 	    } catch (Exception e) {
 	        LOGGER.error("Error al consultar por código", e);
