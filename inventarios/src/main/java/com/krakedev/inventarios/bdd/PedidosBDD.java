@@ -70,6 +70,10 @@ public class PedidosBDD {
 		Connection con = null;
 		PreparedStatement ps = null;
 		PreparedStatement psDec = null;
+		PreparedStatement psHs = null;
+		
+		Date fechaActual=new Date();
+		java.sql.Timestamp fechaHoraActual = new java.sql.Timestamp(fechaActual.getTime());
 		try {
 			con = ConexionBD.obtenerConexion();
 			ps = con.prepareStatement(" update cabecera_pedidos set id_estado='R' where numero = ? ; ");
@@ -100,7 +104,18 @@ public class PedidosBDD {
 				if (filasAfectadas2 < 1) {
 					throw new KrakeDevException("No se encontró el detalle de pedido con el número especificado.");
 				}
-
+				
+			psHs=con.prepareStatement("INSERT INTO historial_stock "
+					+ "( fecha, referencia, id_producto, cantidad) "
+					+ "VALUES "
+					+ "( ? , ? , ? , ? )");
+			
+			psHs.setTimestamp(1, fechaHoraActual);
+			psHs.setString(2, "Pedido "+pedido.getNumero());
+			psHs.setInt(3, dep.getProducto().getCodigo());
+			psHs.setInt(4, dep.getCantidadRecibida());
+			
+			psHs.executeUpdate();
 			}
 
 		} catch (KrakeDevException e) {
