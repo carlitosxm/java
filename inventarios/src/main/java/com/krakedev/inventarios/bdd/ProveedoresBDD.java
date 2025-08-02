@@ -48,6 +48,44 @@ public class ProveedoresBDD {
 		}
 		return proveedores;
 	}
+	
+	public ArrayList<Proveedor> buscarId(String subcadena) throws KrakeDevException {
+		ArrayList<Proveedor> proveedores = new ArrayList<Proveedor>();
+		Connection con = null;
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+		Proveedor proveedor = null;
+		try {
+			con = ConexionBD.obtenerConexion();
+			ps = con.prepareStatement("SELECT identificador,id_tipo_documento,nombre,telefono,correo,direccion,td.descripcion "
+					+ "FROM proveedores prov, tipo_documentos td "
+					+ "where identificador = ? and prov.id_tipo_documento = td.codigo;");
+			ps.setString(1, subcadena);
+			rs = ps.executeQuery();
+			while (rs.next()) {
+				String identificador = rs.getString("identificador");
+				String codigoTipoDocumento = rs.getString("id_tipo_documento");
+				String nombre = rs.getString("nombre");
+				String telefono = rs.getString("telefono");
+				String correo = rs.getString("correo");
+				String direccion = rs.getString("direccion");
+				String descripciontd=rs.getString("descripcion");
+				TipoDocumento td=new TipoDocumento(codigoTipoDocumento,descripciontd);
+				proveedor = new Proveedor(identificador, td,nombre, telefono,correo,direccion);
+				proveedores.add(proveedor);
+			}
+
+		} catch (KrakeDevException e) {
+			e.printStackTrace();
+			throw e;
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			throw new KrakeDevException("Error al consultar: " + e.getMessage());
+		}
+		return proveedores;
+	}
+	
 	public void insertar(Proveedor proveedor) throws KrakeDevException {
 		Connection con = null;
 		try {
