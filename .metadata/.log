@@ -583,3 +583,9 @@ java.nio.file.AccessDeniedException: C:\Users\User\OneDrive\Documentos\krakedev\
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2025-08-01 22:31:29.701
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-08-01 22:53:41.734
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-08-01 22:53:41.736
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
